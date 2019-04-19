@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import SwapiService from "./server";
 
-class Item extends Component {
-  swapi = new SwapiService();
+export default class Item extends Component {
 
   state = {
     items: []
@@ -66,4 +64,3 @@ class Item extends Component {
   }
 }
 
-export default Item;

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-import SwapiService from "./server";
-import Item from "./item";
+import SwapiService from "../../services";
+import Item from "../item";
 
-class App extends Component {
+export default class App extends Component {
   swapi = new SwapiService();
 
   state = {
@@ -33,6 +33,6 @@ class App extends Component {
   }
 }
 
-export default App;
+ 
 
 
