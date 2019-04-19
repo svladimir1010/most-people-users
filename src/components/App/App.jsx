@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import SwapiService from "../../services";
 import Item from "../item";
+import Spinner from '../spinner'
+import ErrorIndicator from '../error-indicator'
 
 export default class App extends Component {
   swapi = new SwapiService();
@@ -27,7 +29,9 @@ export default class App extends Component {
 
     return (
       <div className="user-list-item py-4 d-flex">
-        {el}
+      {/* <Spinner /> */}
+        {/* {el} */}
+        <ErrorIndicator />
       </div>
     );
   }
