@@ -8,9 +8,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: rgb(236, 232, 233)
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
- 

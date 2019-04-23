@@ -4,9 +4,7 @@ import "./spinner.css";
 const Spinner = () => {
   return (
     <div className="lds-css ng-scope">
-      <div
-    
-        className="lds-pacman">
+      <div className="lds-pacman">
         <div>
           <div />
           <div />
